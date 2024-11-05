@@ -1,0 +1,11 @@
+{
+  "title": "DemoDay_toy_0708",
+  "subheading": "서울시 공시지가 API 서비스",
+  "content": [
+    "API로 제공되지 않는 오래된 공공데이터를 DB화해서 자체 API 구축",
+    "프론트에서 DB로 데이터 입/출력, api 샘플테스트 가능하도록 작성",
+    "계정별 권한에 따라 제한적으로 기능 사용하도록 분리 작업"
+  ],
+  "link": "http://192.168.110.114:8080/",
+  "techStack": ["AWS", "MariaDB", "egovframework", "BootStrap", "python"]
+}

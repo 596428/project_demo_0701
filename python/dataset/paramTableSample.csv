@@ -1,0 +1,8 @@
+PARAM_CATEGORY,PARAM_NAME,PARAM_VALUE,USE_YN
+COMMON,dbPrefix,mariadb,Y
+COMMON,id,root,Y
+COMMON,pw,1234,Y
+COMMON,ip,192.168.110.114,Y
+COMMON,port,3306,Y
+COMMON,dbName,test_02,Y
+COMMON,filepath," ""../dataset/test01/""",Y

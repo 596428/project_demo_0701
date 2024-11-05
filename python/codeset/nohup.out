@@ -1,0 +1,86 @@
+INFO:     Will watch for changes in these directories: ['/home/dstream0704/python_serving/codeset']
+INFO:     Uvicorn running on http://0.0.0.0:9999 (Press CTRL+C to quit)
+INFO:     Started reloader process [6104] using WatchFiles
+INFO:     Started server process [6171]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Will watch for changes in these directories: ['/home/dstream0704/python_serving/codeset']
+INFO:     Uvicorn running on http://0.0.0.0:9998 (Press CTRL+C to quit)
+INFO:     Started reloader process [6251] using WatchFiles
+INFO:     Started server process [6285]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+SELECT * FROM 공시지가_1990샘플 WHERE 시군구명 = '성북구' AND 법정동명 = '하월곡동' AND 본번 = 84 AND 부번 = 5;
+INFO:     192.168.110.114:46850 - "POST /serving HTTP/1.1" 200 OK
+INFO:     192.168.110.114:52236 - "GET /selectTable HTTP/1.1" 200 OK
+INFO:     192.168.110.114:52242 - "GET /selectTable HTTP/1.1" 200 OK
+INFO:     192.168.110.114:52244 - "GET /selectTable HTTP/1.1" 200 OK
+INFO:     192.168.110.114:52260 - "GET /selectTable HTTP/1.1" 200 OK
+INFO:     192.168.110.114:52260 - "POST /selectTargetTable HTTP/1.1" 200 OK
+INFO:     192.168.110.114:52514 - "GET /selectTable HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6171]
+INFO:     Stopping reloader process [6104]
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6285]
+INFO:     Stopping reloader process [6251]
+INFO:     Will watch for changes in these directories: ['/home/dstream0704/python_serving/codeset']
+INFO:     Uvicorn running on http://0.0.0.0:9999 (Press CTRL+C to quit)
+INFO:     Started reloader process [22867] using WatchFiles
+INFO:     Started server process [22934]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Will watch for changes in these directories: ['/home/dstream0704/python_serving/codeset']
+INFO:     Uvicorn running on http://0.0.0.0:9998 (Press CTRL+C to quit)
+INFO:     Started reloader process [23011] using WatchFiles
+INFO:     Started server process [23045]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+[ERROR] :  (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'kopo114.kopo.ac.kr' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:     192.168.110.114:52520 - "GET /selectTable HTTP/1.1" 200 OK
+[ERROR] :  (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'kopo114.kopo.ac.kr' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:     192.168.110.114:52524 - "GET /selectTable HTTP/1.1" 200 OK
+[ERROR] :  (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'kopo114.kopo.ac.kr' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:     192.168.110.114:52528 - "GET /selectTable HTTP/1.1" 200 OK
+[ERROR] :  (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'kopo114.kopo.ac.kr' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:     192.168.110.114:52540 - "GET /selectTable HTTP/1.1" 200 OK
+[ERROR] :  (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'kopo114.kopo.ac.kr' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:     192.168.110.114:52552 - "GET /selectTable HTTP/1.1" 200 OK
+Traceback (most recent call last):
+  File "/home/dstream0704/python_serving/codeset/ETLserving.py", line 69, in importFileToTable
+    files = os.listdir(filePath)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/dstream0704/admin/'
+File Path: /home/dstream0704/admin/, File Name: 심박수.csv
+[ERROR] :  [Errno 2] No such file or directory: '/home/dstream0704/admin/'
+INFO:     192.168.110.114:52556 - "POST /importFileToTable HTTP/1.1" 200 OK
+[ERROR] :  (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'kopo114.kopo.ac.kr' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:     192.168.110.114:52558 - "GET /selectTable HTTP/1.1" 200 OK
+Traceback (most recent call last):
+  File "/home/dstream0704/python_serving/codeset/ETLserving.py", line 69, in importFileToTable
+    files = os.listdir(filePath)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/dstream0704/admin/'
+File Path: /home/dstream0704/admin/, File Name: 심박수.csv
+[ERROR] :  [Errno 2] No such file or directory: '/home/dstream0704/admin/'
+INFO:     192.168.110.114:52562 - "POST /importFileToTable HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [23045]
+INFO:     Stopping reloader process [23011]
+INFO:     192.168.110.114:47358 - "POST /serving HTTP/1.1" 200 OK
+INFO:     192.168.110.114:47362 - "POST /serving HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [22934]
+INFO:     Stopping reloader process [22867]
